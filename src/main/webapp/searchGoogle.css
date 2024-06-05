@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+*{
+
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width:100vw;
+	border: 1px solid black;
+	background: fuchsia;
+}
+
+#wrapper{
+	height:130px;
+	width:380px;
+	border: 1px solid black;
+	padding: 10px 20px;
+	background: white;
+	border-radius: 10px;
+}
+
+#f{
+	text-align: center;
+}
+#t{
+	
+	font-size: 20px;
+	
+}
+#t1{
+	margin-bottom: 20px;
+	padding: 5px 2px;
+}

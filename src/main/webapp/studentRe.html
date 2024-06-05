@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div >
+	
+		<form action="RegisterStudent" method="post">
+		
+			<h3>Enter Your Details</h3>
+			
+			<input type="text" name="fname" placeholder="Enter First Name"/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="text" name="mname" placeholder="Enter Middle Name"/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="text" name="lname" placeholder="Enter Last Name"/>
+			
+			
+			<h3>Select Your Gender</h3>
+			<input type="radio" name="gender" value="Male"/>Male
+			<input type="radio" name="gender" value="Female"/>Female
+			<input type="radio" name="gender" value="Other"/>Other
+			
+			<h3></h3>
+			
+			<span>Select Your City:</span> &nbsp;&nbsp;
+			<select name="city">
+				<option value="Ahemdabad">Ahemdabad</option>
+				<option value="Ayodhya">Ayodhya</option>
+				<option value="jaipur">jaipur</option>
+				<option value="kashi">kashi</option>
+			</select>
+			
+			<h3>
+			</h3>
+			<h3>Select Your Hobbies</h3>
+			<input type="checkbox" id="vollyball" name="hobbie" value="VollyBall">
+			<label for="vollyball"> Vollyball</label> &nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="checkbox" id="cricket" name="hobbie" value="Cricket">
+			<label for="cricket"> Cricket</label> &nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="checkbox" id="card" name="hobbie" value="Cards">
+			<label for="card"> Play Card</label><br>
+			
+			<h3>Enter Your Address:</h3> &nbsp;&nbsp;
+			<textarea rows="10" cols="40" name="address"></textarea>
+			<br>
+			<br>
+			
+			<input type="submit" value="SUBMIT"/>
+			
+		</form>
+	</div>
+
+</body>
+</html>
